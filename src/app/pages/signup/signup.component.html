@@ -14,6 +14,7 @@
                     <mat-form-field class="full-width" appearance="outline">
                         <mat-label>User Name</mat-label>
                         <input 
+                        required
                         [(ngModel)] = "user.username"
                         name="username" 
                         matInput placeholder="Enter here">
@@ -24,6 +25,7 @@
                     <mat-form-field class="full-width" appearance="outline">
                         <mat-label>Password</mat-label>
                         <input
+                        required
                         [(ngModel)] = "user.password"
                         name="password"  
                         type="password" matInput placeholder="Enter here">
@@ -33,6 +35,7 @@
                     <mat-form-field class="full-width" appearance="outline">
                         <mat-label>First Name</mat-label>
                         <input 
+                        required
                         [(ngModel)] = "user.firstname"
                         name="firstname" 
                         matInput 
@@ -43,6 +46,7 @@
                     <mat-form-field class="full-width" appearance="outline">
                         <mat-label>Last Name</mat-label>
                         <input
+                        required
                         [(ngModel)] = "user.lastname"
                         name="lastname" 
                         matInput 
@@ -53,6 +57,7 @@
                     <mat-form-field class="full-width" appearance="outline">
                         <mat-label>Email</mat-label>
                         <input 
+                        required
                         [(ngModel)] = "user.email"
                         name="email" 
                         type="email" 
@@ -63,6 +68,7 @@
                     <mat-form-field class="full-width" appearance="outline">
                         <mat-label>Phone Number</mat-label>
                         <input 
+                        required
                         [(ngModel)] = "user.phone"
                         name="phone" 
                         type="number" matInput placeholder="Enter here">
