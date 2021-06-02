@@ -1,12 +1,14 @@
-<div class="bootstrap-wrapper">
-    <div class="container">
+<div class="bootstrap-wrapper full-width">
+    <!-- <app-navbar class="full-width"></app-navbar> -->
+    <div class="container full-width">
         <div class="row" style="margin-top: 20px;">
             <div class="col-md-6 offset-md-3">
+                <mat-card>
                 <div class="container text-center">
                     <img  src="../../../assets/exlogo.jpg" alt="" style="width:70px;height:70px;">
                 </div>
                 <h1 class="text-center">Register Here !!</h1>
-                {{user | json}}
+                <!-- {{user | json}} -->
                 
                 <form (ngSubmit) = "formSubmit()">
 
@@ -80,6 +82,7 @@
 
                     </div>
                 </form>
+            </mat-card>
             </div>
 
         </div>
